@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  /* Cores */
+  --color-navy: #0f1e3c;
+  --color-navy-mid: #1a3160;
+  --color-brand: #2256c7;
+  --color-brand-light: #4477e8;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e8c96a;
+  --color-cream: #faf8f4;
+  --color-cream-dark: #f0ede6;
+
+  /* Fontes */
+  --font-serif: "Instrument Serif", serif;
+  --font-sans: "DM Sans", sans-serif;
+
+  /* Animação */
+  --animate-fade-up: fadeUp 0.45s ease both;
+
+  @keyframes fadeUp {
+    0%   { opacity: 0; transform: translateY(14px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+}
